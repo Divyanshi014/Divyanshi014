@@ -321,12 +321,19 @@ ul a:hover{
     margin: 10px auto 25px auto;
 }
 .footer{
-    display: flex;
+    display: grid;
+    /* flex-direction: column; */
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    color: white;
+    
+    /* display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     background-color: black;
     align-items: center;
-    color: white;
+    color: white; */
 
 }
 .corus{
